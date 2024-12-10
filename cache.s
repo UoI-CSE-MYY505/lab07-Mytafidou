@@ -8,6 +8,7 @@ array:
         .text
 main:
 
+
 # Supply values for array size, step size, and repetition count.
 # arraysize must be a positive power of 2, less than or equal the number of bytes
 #   allocated for "array".
@@ -25,6 +26,7 @@ main:
     li     s1, 0      # option
     li     s2, 1      # stepSize
     li     s3, 1      # repCount
+    
 # Don't modify below the line
 # -------------------------------------------------------------------
 
